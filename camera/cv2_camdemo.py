@@ -10,7 +10,7 @@ while True:
 
     cv2.imshow('Frame', img)
     key = cv2.waitKey(33)
-    if key == 113 or key == 81:
+    if key == ord('q') or key == ord('Q'):
         break
 
 cv2.destroyAllWindows()
